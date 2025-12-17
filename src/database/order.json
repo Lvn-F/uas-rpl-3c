@@ -1,0 +1,274 @@
+[
+    {
+        "id": "#tr0001",
+        "items": [
+            {
+                "name": "Kopi",
+                "price": 5000,
+                "img": "assets/bpokok/kopi.JPG",
+                "desc": "Kopi ukuran besar",
+                "qty": 1
+            },
+            {
+                "name": "Minyak Goreng",
+                "price": 8000,
+                "img": "assets/bpokok/minyak.JPG",
+                "desc": "Minyak goreng bimoli",
+                "qty": 1
+            },
+            {
+                "name": "Minyak Goreng juga",
+                "price": 8000,
+                "img": "assets/bpokok/minyakjuga.JPG",
+                "desc": "Minyak goreng bimoli botol",
+                "qty": 1
+            }
+        ],
+        "total": 21000,
+        "date": "12/13/2025, 9:07:14 AM"
+    },
+    {
+        "id": "#tr0002",
+        "items": [
+            {
+                "name": "Milo",
+                "price": 2000,
+                "img": "assets/minuman/milo.JPG",
+                "qty": 3
+            },
+            {
+                "name": "Floridina",
+                "price": 4000,
+                "img": "assets/minuman/floridina.JPG",
+                "qty": 5
+            },
+            {
+                "name": "Yakult",
+                "price": 2000,
+                "img": "assets/minuman/yakult.JPG",
+                "qty": 6
+            },
+            {
+                "name": "Ale-ale",
+                "price": 1000,
+                "img": "assets/minuman/aleale.JPG",
+                "qty": 1
+            },
+            {
+                "name": "Bear brand",
+                "price": 4000,
+                "img": "assets/minuman/bearbrand.JPG",
+                "qty": 6
+            },
+            {
+                "name": "Beng-beng",
+                "price": 2000,
+                "img": "assets/camilan/bengbeng.JPG",
+                "qty": 3
+            },
+            {
+                "name": "Coki-coki",
+                "price": 1000,
+                "img": "assets/camilan/cokicoki.JPG",
+                "qty": 6
+            },
+            {
+                "name": "Chocolatos",
+                "price": 500,
+                "img": "assets/camilan/chocolatos.JPG",
+                "qty": 4
+            },
+            {
+                "name": "Yupi",
+                "price": 500,
+                "img": "assets/camilan/yupi.JPG",
+                "qty": 9
+            },
+            {
+                "name": "Waffelo",
+                "price": 1000,
+                "img": "assets/camilan/waffelo.JPG",
+                "qty": 6
+            }
+        ],
+        "total": 87500,
+        "date": "12/13/2025, 9:10:26 AM"
+    },
+    {
+        "id": "#tr0003",
+        "items": [
+            {
+                "name": "Kecap",
+                "price": 5000,
+                "img": "assets/bpokok/kecap.JPG",
+                "desc": "Kecap manis ukuran 100ML",
+                "qty": 1
+            },
+            {
+                "name": "Sunlight",
+                "price": 2000,
+                "img": "assets/bpokok/sunlight.JPG",
+                "desc": "Sabun cuci piring",
+                "qty": 1
+            },
+            {
+                "name": "Tepung terigu",
+                "price": 8000,
+                "img": "assets/bpokok/tepung.JPG",
+                "desc": "Tepung terigu serba guna",
+                "qty": 1
+            },
+            {
+                "name": "Waffelo",
+                "price": 1000,
+                "img": "assets/camilan/waffelo.JPG",
+                "qty": 1
+            },
+            {
+                "name": "Good time",
+                "price": 1000,
+                "img": "assets/camilan/goodtime.JPG",
+                "qty": 1
+            }
+        ],
+        "total": 17000,
+        "date": "12/13/2025, 9:11:33 AM"
+    },
+    {
+        "id": "#tr0004",
+        "items": [
+            {
+                "name": "Sunlight",
+                "price": 2000,
+                "img": "assets/bpokok/sunlight.JPG",
+                "desc": "Sabun cuci piring",
+                "qty": 9
+            },
+            {
+                "name": "Tepung terigu",
+                "price": 8000,
+                "img": "assets/bpokok/tepung.JPG",
+                "desc": "Tepung terigu serba guna",
+                "qty": 10
+            },
+            {
+                "name": "Yakult",
+                "price": 2000,
+                "img": "assets/minuman/yakult.JPG",
+                "qty": 5
+            }
+        ],
+        "total": 108000,
+        "date": "12/13/2025, 7:41:26 PM"
+    },
+    {
+        "id": "#tr0005",
+        "items": [
+            {
+                "name": "Minyak Goreng",
+                "price": 8000,
+                "img": "assets/bpokok/minyak.JPG",
+                "desc": "Minyak goreng bimoli",
+                "qty": 5
+            },
+            {
+                "name": "Minyak Goreng juga",
+                "price": 8000,
+                "img": "assets/bpokok/minyakjuga.JPG",
+                "desc": "Minyak goreng bimoli botol",
+                "qty": 10
+            },
+            {
+                "name": "Santan",
+                "price": 4000,
+                "img": "assets/bpokok/santan.JPG",
+                "desc": "Santan siap pakai",
+                "qty": 6
+            }
+        ],
+        "total": 144000,
+        "date": "12/15/2025, 2:13:32 PM"
+    },
+    {
+        "id": "#tr0006",
+        "items": [
+            {
+                "name": "margarin",
+                "price": 5000,
+                "img": "assets/bpokok/margarin.JPG",
+                "desc": "Sesuai nama",
+                "qty": 7
+            },
+            {
+                "name": "Kopi",
+                "price": 5000,
+                "img": "assets/bpokok/kopi.JPG",
+                "desc": "Kopi ukuran besar",
+                "qty": 4
+            },
+            {
+                "name": "Milo",
+                "price": 2000,
+                "img": "assets/minuman/milo.JPG",
+                "qty": 3
+            }
+        ],
+        "total": 61000,
+        "date": "12/17/2025, 10:46:29 AM"
+    },
+    {
+        "id": "#tr0007",
+        "items": [
+            {
+                "name": "Yakult",
+                "price": 2000,
+                "img": "assets/minuman/yakult.JPG",
+                "qty": 1
+            }
+        ],
+        "total": 2000,
+        "date": "12/17/2025, 11:05:24 AM",
+        "address": "tiga"
+    },
+    {
+        "id": "#tr0008",
+        "items": [
+            {
+                "name": "Kopi",
+                "price": 5000,
+                "img": "assets/bpokok/kopi.JPG",
+                "desc": "Kopi ukuran besar",
+                "qty": 5
+            },
+            {
+                "name": "Bumbu Instant",
+                "price": 2000,
+                "img": "assets/bpokok/racik.JPG",
+                "desc": "Bumbu racik ikan goreng",
+                "stok": "10",
+                "qty": 2
+            },
+            {
+                "name": "Chocolatos",
+                "price": 500,
+                "img": "assets/camilan/chocolatos.JPG",
+                "qty": 2
+            },
+            {
+                "name": "Beng-beng",
+                "price": 2000,
+                "img": "assets/camilan/bengbeng.JPG",
+                "qty": 10
+            },
+            {
+                "name": "Coki-coki",
+                "price": 1000,
+                "img": "assets/camilan/cokicoki.JPG",
+                "qty": 1
+            }
+        ],
+        "total": 51000,
+        "date": "12/17/2025, 11:39:51 AM",
+        "address": "kalibalanngan gang mawar"
+    }
+]

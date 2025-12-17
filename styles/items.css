@@ -1,0 +1,142 @@
+.list-item .items:nth-child(1) .item-pic {
+    background-image: url(../assets/decoy.png);
+    background-position: center;
+    background-size: cover;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f2f2f2;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+}
+
+.item-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.item {
+    background: white;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+.item:hover {
+    box-shadow: 0 0 10px hsla(0, 0%, 20%, 0.5);
+    transform: scale(1.01);
+}
+.item h3 {
+    color: hsl(0, 0%, 20%);
+    margin-top: 1rem;
+    font-size: 16px;
+}
+
+.item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    size: cover;
+    border-radius: 6px;
+}
+.item p {
+    color: hsl(0, 0%, 40%);
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+
+
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; }
+
+.category-nav {
+  display: flex;
+  gap: 16px;
+  padding: 12px 16px;
+  position: relative;
+  top: 0;
+  z-index: 20;
+  margin: auto;
+  width: 70%;
+}
+.tab-link {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 8px 6px;
+}
+.tab-link.active {
+  color: hsl(240, 20%, 55%);
+  border-bottom: 2px solid hsl(240, 20%, 55%);
+}
+
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider-track {
+  display: flex;
+  transition: transform 0.45s ease;
+}
+
+.slide {
+  flex: 0 0 100%;
+  min-width: 100%;
+  height: 100%;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1000; 
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background-color: hsla(0, 0%, 20%, 0.5);
+}
+.modal-content {
+  background: hsl(0, 0%, 90%);
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 8px;
+  width: 700px;
+  box-shadow: -10px 0px 0px hsl(240, 20%, 55%);
+}
+.desc-detail {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+.desc-side {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.close {
+  float: right;
+  font-size: 24px;
+  cursor: pointer;
+}
+.modal-content img {
+  width: 300px;
+  height: 300px;
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 6px;
+}

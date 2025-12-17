@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Keranjang Belanja</title>
+    <link rel="stylesheet" href="styles/cart.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html">Kembali</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Keranjang Belanja</h1>
+        <div id="cartContainer"></div>
+
+    
+    </div>
+    <div id="cartSummary">
+        <h2>Total: <span id="cartTotal">Rp 0</span></h2>
+        <div class="nigga">
+            <input type="text" id="addressInput" placeholder="Masukkan alamat pengiriman">
+            <button id="checkoutBtn">Checkout</button>
+        </div>
+    </div>
+    <script src="src/database/cart.js"></script>
+</body>
+</html>

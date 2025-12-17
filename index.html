@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <title>Toko Proyo</title>
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/animation.css">
+        <link rel="stylesheet" href="styles/items.css">
+        <script defer src="src/main.js"></script>
+        <script src="src/database/database.js"></script>
+        <script src="src/database/cart.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="atas">
+                <div class="logo">
+                    <h2>PROYO</h2>
+                </div>
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Cari produk...">
+                    <button class="searchimg" id="searchBtn"></button>
+                </div>
+                <div class="qnav">
+                    
+                    <div class="cart"></div>
+                    <div class="user" id="user"></div>
+                </div>
+            </div>
+
+            
+        </header>
+
+    
+        <div class="entahlah">
+            <div class="hero">
+                <div class="hero-text">
+                    <h1>BELANJA HEMAT DI TOKO PROYUL</h1>
+                </div>
+                <div class="hero-sub-text">
+                    <h3>Belanja hematmurah dan terjangkau hanya di toko bu yuli. </h3>
+                </div>
+                <div class="hero-tombol">
+                    <a href="#">BELANJA SEKARANG</a>
+                </div>
+            </div>
+            <div class="cover"></div>
+            <div class="hero-bg"></div>
+        </div>
+        <nav class="category-nav">
+            <button class="tab-link active" data-target="drink">Kebutuhan Harian</button>
+            <button class="tab-link" data-target="snack">Alat Tulis</button>
+            <button class="tab-link" data-target="food">Minuman</button>
+            <button class="tab-link" data-target="other">Camilan</button>
+        </nav>
+
+        <div class="slider-container">
+            <div class="slider-track">
+                <section class="slide container" id="bahanPokok">
+                    <div id="productList" class="item-list"></div>
+                </section>
+
+                <section class="slide container" id="alatTulis">
+                    <div id="productList2" class="item-list"></div>
+                </section>
+
+                <section class="slide container" id="minuman">
+                    <div id="productList3" class="item-list"></div>
+                </section>
+
+                <section class="slide container" id="camilan">
+                    <div id="productList4" class="item-list"></div>
+                </section>
+            </div>
+        </div>
+
+        <div id="productModal" class="modal">
+            <div class="modal-content">
+                <div>
+                    <span id="closeModal" class="close">&times;</span>
+                </div>
+                <div class="desc-detail">
+                    <div>
+                        <img id="modalImg" src="" alt="Product Image">
+                    </div>
+                    <div class="desc-side">
+                        <h2 id="modalName"></h2>
+                        <p id="modalPrice"></p>
+                        <p id="modalDesc"></p>
+                        <button id="addToCartBtn">Tambah ke Keranjang</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="container">
+            <div id="productList" class="item-list"></div>
+        </div>
+        <footer>
+            <div class="about">
+                <h3>About Us</h3>
+                <a href="">Kelompok berapa</a>
+            </div>
+            <div class="kayaknya">
+                <h3>Contact</h3>
+                <p>Email: kayaknya@yutub.com</p>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Binder",
+        "price": 5000,
+        "img": "assets/atulis/binder.JPG",
+        "desc": "Binder untuk menyimpan kertas catatan."
+    },
+    {
+        "name": "Lem Stik",
+        "price": 2000,
+        "img": "assets/atulis/lemstik.JPG",
+        "desc": "Lem stik untuk merekatkan kertas."
+    },
+    {
+        "name": "Pena",
+        "price": 2000,
+        "img": "assets/atulis/pena.JPG",
+        "desc": "Pena untuk menulis di kertas."
+    },
+    {
+        "name": "Penggaris",
+        "price": 2000,
+        "img": "assets/atulis/penggaris.JPG",
+        "desc": "Penggaris untuk mengukur panjang."
+    },
+    {
+        "name": "Penghapus",
+        "price": 1000,
+        "img": "assets/atulis/penghapus.JPG",
+        "desc": "Penghapus untuk menghapus tulisan."
+    },
+    {
+        "name": "Penghapus juga",
+        "price": 2000,
+        "img": "assets/atulis/penghapusjuga.JPG",
+        "desc": "Penghapus juga untuk menghapus tulisan."
+    },
+    {
+        "name": "Pensil",
+        "price": 2000,
+        "img": "assets/atulis/pensil.JPG",
+        "desc": "Pensil untuk menulis atau menggambar."
+    },
+    {
+        "name": "Peruncing",
+        "price": 2000,
+        "img": "assets/atulis/peruncing.JPG",
+        "desc": "Peruncing untuk meruncingkan pensil."
+    },
+    {
+        "name": "Spidol",
+        "price": 7000,
+        "img": "assets/atulis/spidol.JPG",
+        "desc": "Spidol untuk menulis di papan tulis."
+    },
+    {
+        "name": "Tipe-X",
+        "price": 5000,
+        "img": "assets/atulis/tipex.JPG",
+        "desc": "Tipe-X untuk menutupi tulisan yang salah."
+    }
+]

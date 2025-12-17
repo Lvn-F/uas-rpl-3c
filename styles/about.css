@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+p {
+    color: hsl(0, 0%, 20%);
+    font-weight: 600;
+}
+h2 {
+    color: hsl(315, 80%, 75%);
+    font-weight: 800;
+    margin-bottom: 1rem;
+    font-size: 3em;
+}
+
+.about {
+    width: 70%;
+    margin: 5rem auto 4rem auto;
+}
+
+.team-cont {
+    width: 70%;
+    margin: 9rem auto 2rem auto;
+    display: grid;
+    grid-template-rows: 0.2fr 1fr;
+    justify-content: center;
+    text-align: center;
+}
+.member {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1rem;
+    text-align: center;
+    gap: 3rem;
+}
+
+.mcard {
+    width: 300px;
+    height: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: hsl(0, 0%, 80%);
+    position: relative;
+    transition: all 0.3s ease;
+}
+.mcontent {
+    display: grid;
+    grid-template-rows: 1fr 0.2fr;
+    background-color: hsl(100, 80%, 80%);
+}
+.mname {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+.mimg {
+    width: 300px;
+    height: 280px;
+    object-fit: cover;
+    background-color: hsl(240, 40%, 80%);
+}
+
+.team-cont .member .mcard:nth-child(2) .mcontent .mimg{
+    background-image: url(../assets/bagas.png);
+    background-position: center;
+    background-size: cover;
+}
+.team-cont .member .mcard:nth-child(3) .mcontent .mimg{
+    background-image: url(../assets/novalinda.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.thinLine {
+    width: 80%;
+    height: 2px;
+    background-color: hsl(0, 0%, 20%);
+    margin: 2rem auto;
+}
+
+footer {
+    height: 200px;
+    background-color: hsl(240, 40%, 80%);
+}
+
+.sliderr-container {
+  overflow: hidden;
+  width: 70%;
+  position: relative;
+  margin: 0rem auto 5rem auto;
+}
+
+.sliderr-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slidee {
+  min-width: 100%; /* setiap slide penuh layar */
+  flex-shrink: 0;
+}
+
+.mcard.active {
+  border: 2px solid hsl(315, 80%, 75%);
+  transform: scale(1.05);
+}

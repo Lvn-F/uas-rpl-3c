@@ -1,0 +1,58 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+}
+h2 {
+    font-size: 2.5em;
+}
+.welcome-message {
+    background-color: hsl(240, 20%, 35%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    color: hsl(0, 0%, 100%);
+    padding: 2rem;
+    background: radial-gradient(hsl(240, 20%, 35%) 50%,  hsl(100, 40%, 55%) 100%);
+}
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 2rem;
+}
+input {
+    border: none;
+    outline: none;
+    background-color: hsl(0, 0%, 90%);
+    padding: 1rem;
+    border-radius: 12px;
+    width: 320px;
+    color: hsl(0, 0%, 20%);
+}
+#login {
+    background-color: hsl(240, 20%, 55%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+}
+#login a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+a {
+    color: hsl(240, 20%, 55%);
+    text-decoration: none;
+}

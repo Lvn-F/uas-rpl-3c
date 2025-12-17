@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Gery",
+        "price": 1000,
+        "img": "assets/camilan/gery.JPG"
+    },
+    {
+        "name": "JetZ",
+        "price": 1000,
+        "img": "assets/camilan/jetZ.JPG"
+    },
+    {
+        "name": "Beng-beng",
+        "price": 2000,
+        "img": "assets/camilan/bengbeng.JPG"
+    },
+    {
+        "name": "Coki-coki",
+        "price": 1000,
+        "img": "assets/camilan/cokicoki.JPG"
+    },
+    {
+        "name": "Chocolatos",
+        "price": 500,
+        "img": "assets/camilan/chocolatos.JPG"
+    },
+    {
+        "name": "Oreo",
+        "price": 1000,
+        "img": "assets/camilan/oreo.JPG"
+    },
+    {
+        "name": "Yupi",
+        "price": 500,
+        "img": "assets/camilan/yupi.JPG"
+    },
+    {
+        "name": "Good time",
+        "price": 1000,
+        "img": "assets/camilan/goodtime.JPG"
+    },
+    {
+        "name": "Waffelo",
+        "price": 1000,
+        "img": "assets/camilan/waffelo.JPG"
+    },
+    {
+        "name": "Sari gandum",
+        "price": 2000,
+        "img": "assets/camilan/sarigandum.JPG"
+    }
+]

@@ -1,0 +1,63 @@
+[
+    {
+        "name": "Kecap",
+        "price": 5000,
+        "img": "assets/bpokok/kecap.JPG",
+        "desc": "Kecap manis ukuran 100ML"
+    },
+    {
+        "name": "Kopi",
+        "price": 5000,
+        "img": "assets/bpokok/kopi.JPG",
+        "desc": "Kopi ukuran besar"
+    },
+    {
+        "name": "margarin",
+        "price": 5000,
+        "img": "assets/bpokok/margarin.JPG",
+        "desc": "Sesuai nama"
+    },
+    {
+        "name": "Minyak Goreng",
+        "price": 8000,
+        "img": "assets/bpokok/minyak.JPG",
+        "desc": "Minyak goreng bimoli"
+    },
+    {
+        "name": "Minyak Goreng juga",
+        "price": 8000,
+        "img": "assets/bpokok/minyakjuga.JPG",
+        "desc": "Minyak goreng bimoli botol"
+    },
+    {
+        "name": "Odol",
+        "price": 6000,
+        "img": "assets/bpokok/odol.JPG",
+        "desc": "Odol pepsodent"
+    },
+    {
+        "name": "Bumbu Instant",
+        "price": 2000,
+        "img": "assets/bpokok/racik.JPG",
+        "desc": "Bumbu racik ikan goreng",
+        "stok": "10"
+    },
+    {
+        "name": "Santan",
+        "price": 4000,
+        "img": "assets/bpokok/santan.JPG",
+        "desc": "Santan siap pakai"
+    },
+    {
+        "name": "Sunlight",
+        "price": 2000,
+        "img": "assets/bpokok/sunlight.JPG",
+        "desc": "Sabun cuci piring"
+    },
+    {
+        "name": "Tepung terigu",
+        "price": 8000,
+        "img": "assets/bpokok/tepung.JPG",
+        "desc": "Tepung terigu serba guna"
+    }
+]

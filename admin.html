@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="styles/admin.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Admin Panel</h1>
+        <div class="thinLine"></div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#manage">Kelola Produk</a>
+            <a href="#riwayat">Riwayat</a>
+        </nav>
+    </header>
+    <div class="header"></div>
+
+    <div class="container">
+        <h1>Manage Products</h1>
+        <div class="thinLine"></div>
+        <div class="manage" id="manage">
+            <div class="create">
+                <h2>Tambah Produk</h2>
+
+                <input type="text" id="nameInput" placeholder="Nama Produk">
+                <input type="number" id="priceInput" placeholder="Harga" min="1" step="1">
+                <input type="text" id="imgInput" placeholder="URL Gambar">
+                <input type="text" id="descInput" placeholder="Deskripsi Produk">
+
+                <div class="btn-container">
+                    <button onclick="addItem(1)">Kebutuhan Harian</button>
+                    <button onclick="addItem(2)">Alat Tulis</button>
+                    <button onclick="addItem(3)">Minuman</button>
+                    <button onclick="addItem(4)">Camilan</button>
+                </div> 
+            </div>
+
+            <div class="delete">
+                <h2>Hapus Produk</h2>
+                <input type="text" id="removeInput" placeholder="Nama Produk">
+                <div class="btn-container">
+                    <button onclick="removeItem(1)">Hapus from Bahan Pokok</button>
+                    <button onclick="removeItem(2)">Hapus from Alat Tulis</button>
+                    <button onclick="removeItem(3)">Hapus from Minuman</button>
+                    <button onclick="removeItem(4)">Hapus from Camilan</button>
+                </div>
+            </div>
+        </div>
+        <div class="riwayat" id="riwayat">
+            <h2>Riwayat Transaksi</h2>
+            <div class="thinLine"></div>
+            <div id="historyContainer"></div>
+            
+            <div id="orderModal" class="modal">
+            <div class="modal-content">
+                <span id="closeOrderModal" class="close">&times;</span>
+                <h2 id="orderTitle"></h2>
+                <p id="orderDate"></p>
+                <p id="orderTotal"></p>
+                <ul id="orderItems"></ul>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="src/database/database.js?v=1.0.3"></script>
+    <script src="src/admin.js?v=1.0.0"></script>
+</body>
+</html>

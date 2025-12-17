@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Mogu mogu",
+        "price": 8000,
+        "img": "assets/minuman/mogumogu.JPG"
+    },
+    {
+        "name": "Yakult",
+        "price": 2000,
+        "img": "assets/minuman/yakult.JPG"
+    },
+    {
+        "name": "Milo",
+        "price": 2000,
+        "img": "assets/minuman/milo.JPG"
+    },
+    {
+        "name": "Floridina",
+        "price": 4000,
+        "img": "assets/minuman/floridina.JPG"
+    },
+    {
+        "name": "Ale-ale",
+        "price": 1000,
+        "img": "assets/minuman/aleale.JPG"
+    },
+    {
+        "name": "Teh rio",
+        "price": 1000,
+        "img": "assets/minuman/tehrio.JPG"
+    },
+    {
+        "name": "Teh pucuk",
+        "price": 4000,
+        "img": "assets/minuman/tehpucuk.JPG"
+    },
+    {
+        "name": "Bear brand",
+        "price": 4000,
+        "img": "assets/minuman/bearbrand.JPG"
+    },
+    {
+        "name": "Pocari Sweat",
+        "price": 6000,
+        "img": "assets/minuman/pocari.JPG"
+    },
+    {
+        "name": "Milku",
+        "price": 4000,
+        "img": "assets/minuman/milku.JPG"
+    },
+    {
+        "name": "Pop Ice",
+        "price": 5000,
+        "img": "https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,f_auto,q_auto:best,w_640/v1634025439/01jxzfxd0544e44c10et6jxs23.png",
+        "desc": "Minuman segar dengan rasa coklat"
+    }
+]
